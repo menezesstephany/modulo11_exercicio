@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leanna Jewelry</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="titulo-site" >Leanna Jewelry</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="#contatos" id="rolagem">Cadastre-se</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <img class="imagem-loja" src="./img/brinco.jpeg" alt="Imagem da loja"/>
+            <div class="texto-sobre">
+                <h2>Quem somos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus necessitatibus vel fuga officiis dignissimos inventore consequatur repudiandae veritatis velit natus quidem minus magnam ad provident blanditiis voluptate deserunt, iusto neque?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officia nisi est error vitae, ipsa vel aperiam. Nobis assumenda iste itaque deserunt unde tempore maxime, doloremque temporibus corrupti, sunt consequuntur.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <h2>Nossas Jóias:</h2>
+            <div class="lista-produtos">
+                <article class="produto">
+                    <img src="./img/anel.jpeg" alt="Produto 1">
+                    <h3>Kit de Argolas</h3>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>
+                        <strong>R$ 54,90</strong>
+                    </p>
+                    <button type="button" class="add-to-cart" data-product-name="Kit de Argolas">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="./img/colares.jpeg" alt="Produto 2">
+                    <h3>Colar Esferas</h3>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>
+                        <strong>R$ 82,90</strong>
+                    </p>
+                    <button type="button" class="add-to-cart" data-product-name="Colar Esferas">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="./img/brincos.jpeg" alt="Produto 3">
+                    <h3>Brincos Heart</h3>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>
+                        <strong>R$ 49,90</strong>
+                    </p>
+                    <button type="button" class="add-to-cart" data-product-name="Brincos Heart">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="./img/pulseira.jpeg" alt="Produto 4">
+                    <h3>Kit de Pulseiras</h3>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>
+                        <strong>R$ 79,90</strong>
+                    </p>
+                    <button type="button" class="add-to-cart" data-product-name="Kit de Pulseiras">Adicionar ao carrinho</button>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <div class="contato-grid">
+                <div class="coluna1">
+                    <h2>Cadastre-se:</h2>
+                    <h3>Receba as novidades da coleção</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="coluna2">
+                    <div class="links">
+                        <h3>Nos siga nas redes sociais</h3>
+                        <ul class="links-sociais">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./img/instagram.png" alt="Logo do Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="./img/facebook.png" alt="Logo do Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no Youtube">
+                                    <img src="./img/youtube.png" alt="Logo do Youtube" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="endereco">
+                        <h3>Loja física</h3>
+                        <p>Av Paulista n° 1234, Brigadeiro, São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Leanna Jewelry - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
